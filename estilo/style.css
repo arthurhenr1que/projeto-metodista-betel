@@ -143,7 +143,44 @@ main .cultos #containers .container-culto img {
 }
 
 main .cultos #containers .container-culto h2 {
-    
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+main .cultos #containers .container-culto p {
+    margin-top: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+main #sobre-nos {
+    margin-top: 30px;
+    padding: 3rem;
+
+    background-image: url('../imagens/fundo-secao-principal.jpeg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main #sobre-nos #texto {
+    width: 550px;
+    margin: auto;
+
+    color: white;
+}
+
+main #sobre-nos #texto h1 {
+    font-family: var(--font-destaque);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main #sobre-nos #texto p {
+    text-align: justify;
 }
 
 footer {
