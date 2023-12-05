@@ -43,8 +43,9 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-section#projetos {
-    margin: 40px;
+section {
+    padding: 30px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.319);
 }
 
 section#projetos h1.titulo-principal {
@@ -54,8 +55,8 @@ section#projetos h1.titulo-principal {
 }
 
 section#projetos div.containers {
-    display: flex;
     overflow: auto;
+    display: flex;
 }
 
 section#projetos div.containers::-webkit-scrollbar {
@@ -63,7 +64,7 @@ section#projetos div.containers::-webkit-scrollbar {
 }
 
 section#projetos div.container {
-    min-width: 250px;
+    min-width: 300px;
     margin: 20px;
     padding: 1.5rem;
 
